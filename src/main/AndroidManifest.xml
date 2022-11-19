@@ -13,6 +13,27 @@
         android:theme="@style/Theme.MaternalHealthCare"
         tools:targetApi="31">
         <activity
+            android:name=".GetStartActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".OneStepActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".JourneyWithYouActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false">
             <meta-data
